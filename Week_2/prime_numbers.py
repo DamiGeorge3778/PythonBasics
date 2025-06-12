@@ -9,3 +9,5 @@ else:
             break
     else:
         print("It is a prime")
+# Check if the number is a prime or not
+# Example: n = 7, print(7 is prime), n = 10, print(10 is not a prime)
