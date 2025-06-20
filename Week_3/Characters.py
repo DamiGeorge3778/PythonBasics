@@ -10,7 +10,7 @@ def count_characters(text):
 def count_words(text):
     return len(text.split())
 
-def analyze_text(text):
+def check_text(text):
     print("Text Analysis Results:")
     print("Uppercase letters:", count_uppercase(text))
     print("Lowercase letters:", count_lowercase(text))
@@ -18,5 +18,5 @@ def analyze_text(text):
     print("Total words:", count_words(text))
 
 user_input = input("Enter a sentence: ")
-analyze_text(user_input)
+check_text(user_input)
 
