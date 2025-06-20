@@ -17,6 +17,6 @@ def analyze_text(text):
     print("Total characters:", count_characters(text))
     print("Total words:", count_words(text))
 
-user_input = input("Enter a sentence or paragraph: ")
+user_input = input("Enter a sentence: ")
 analyze_text(user_input)
 
