@@ -1,0 +1,11 @@
+Problem 1: Write a python program using functions that calculates the number of uppercase letters and 
+lowercase letters, total number of characters and number of words
+
+Example test case: 
+input:
+Functions could have no parameters
+
+Output: 1 29 34 5
+
+Problem 3:
+Do sorting using recursion
