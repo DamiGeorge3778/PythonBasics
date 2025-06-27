@@ -1,0 +1,33 @@
+Question 1: Lists and Sets
+Write a Python function that takes a list of integers as input and returns a list containing only the unique elements, preserving their original order.
+
+Example Input:
+
+[4, 5, 6, 4, 2, 5, 7]  
+
+Expected Output:
+
+[4, 5, 6, 2, 7]
+
+Question 2: Dictionaries
+Given a list of words, write a function that returns a dictionary with the words as keys and their lengths as values.
+Example Input:
+
+["apple", "banana", "cherry"]
+
+Expected Output:
+
+{'apple': 5, 'banana': 6, 'cherry': 6}
+
+Question 3: Recursion and Functions
+Write a recursive Python function to compute the sum of all elements in a nested list. The list can contain integers or other lists.
+
+Example Input:
+
+[1, [2, 3], [4, [5, 6]], 7]
+
+Expected Output:
+
+28
+
+Question 4: Do sorting using recursion
