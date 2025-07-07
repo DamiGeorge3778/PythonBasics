@@ -1,0 +1,27 @@
+Q:
+Write a function to find the first occurrence of a target number in a sorted list that may contain duplicates using binary search.
+
+# Example:
+# Input: [1, 2, 4, 4, 4, 5, 6], target = 4
+# Output: 2  (index of first 4)
+
+
+
+
+
+Q:
+Given a list of words, return the top 3 most frequent words in descending order of frequency.
+
+# Example:
+# Input: ["apple", "banana", "apple", "orange", "banana", "apple"]
+# Output: ["apple", "banana", "orange"]
+
+
+
+
+Given a list of strings, sort them by their last character. If two strings have the same last character, maintain their original order (stable sort).
+
+# Example:
+# Input: ["car", "apple", "banana", "cat"]
+# Output: ["banana", "apple", "car", "cat"]
+# ('a' from banana, 'e' from apple, 'r' from car, 't' from cat)
