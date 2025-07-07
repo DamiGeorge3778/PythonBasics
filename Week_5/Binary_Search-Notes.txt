@@ -1,0 +1,18 @@
+l = [2, 4, 7, 10, 15, 18, 21]
+
+find 18
+len(l) = 7
+7// 2 = 3
+middle element = 10
+-------------------------------------------
+left side = 2,4,7,10 < 10: eliminated
+
+right side = 10,15,18,21 > 10
+--------------------------------------------
+[15, 18, 21]
+find the new middle number
+3//2 = 1
+middle element = 18
+
+18 = 18: found
+
