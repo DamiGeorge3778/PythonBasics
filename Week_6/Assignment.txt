@@ -1,0 +1,14 @@
+Create a new route /calculate_table
+It should display the form that will ask you to enter a number
+After you enter a number and submit it should open new HTML page and it should display multiplication 
+of the number you entered
+
+Example:
+Enter number = 5
+5 * 1 = 5
+5 * 2 = 10
+.
+.
+.
+.
+5 * 10 = 50
