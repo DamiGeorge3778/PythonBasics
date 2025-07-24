@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/articles" method="post">
+        <input type="text" name="title" placeholder="Article Title" required>
+        <input type="text" name="category" placeholder="Article Category" required>
+        <textarea name="content" placeholder="Article Content" required></textarea>
+        <select name="author_id" required>
+            {% for author in authors %}
+                <option value="{{ author.id }}">{{ author.name }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Add Article</button>
+    </form>
+    <h2>Articles</h2>
+    <ul>
+        {% for article in articles %}
+            <li>
+                <strong>{{ article.title }}</strong> by {{ article.author.name }}<br>
+                {{ article.content }} {{article.category}}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Authors</h2>
+   <form action="/authors" method="post">
+    <input type="text" name="name" placeholder="Author Name" required>
+    <input type="text" name="email" placeholder="Author Email" required>
+    <button type="submit">Add Author</button> 
+   </form>
+   <h3>Author List</h3>
+   <ul>
+    {% for author in authors %}
+        <li>{{ author.name }} {{ author.email }}</li>
+    {% endfor %}
+   </ul>
+</body>
+</html>
